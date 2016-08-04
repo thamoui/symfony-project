@@ -1,6 +1,6 @@
 symfony-project
 ===============
 
-A Symfony project created on August 3, 2016, 11:50 am.
+Cool list of public APIs: https://github.com/toddmotto/public-apis
 
-List of public API: https://github.com/toddmotto/public-apis
+Check files `app/Resources/view/default/index.html.twig` and `src/AppBundle/Controller/DefaultController.php`.
