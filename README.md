@@ -7,7 +7,7 @@ Cool list of public APIs: https://github.com/toddmotto/public-apis
 
 ```shell
 cd symfony-project
-php bin:console server:run
+php bin/console server:run
 firefox "localhost:8000?q=kitten"
 ```
 
