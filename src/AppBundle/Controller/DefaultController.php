@@ -13,9 +13,12 @@ class DefaultController extends Controller
      */
     public function indexAction(Request $request)
     {
-        // replace this example code with whatever you need
+        $url = 'http://api.giphy.com/v1/gifs/search?q='.$_GET['q'].'&api_key=dc6zaTOxFJmzC';
+        $obj = json_decode(file_get_contents($url), true);
+
         return $this->render('default/index.html.twig', [
-            'base_dir' => realpath($this->getParameter('kernel.root_dir').'/..'),
+            'alt' => $_GET['q'],
+            'src' => $obj['data'][0]['images']['original']['url'],
         ]);
     }
 }
