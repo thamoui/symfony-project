@@ -1,6 +1,8 @@
 Symfony project
 ===============
 
+![Kitten GIF](http://media2.giphy.com/media/3o7qE7Hbomm69hYr04/giphy.gif)
+
 This is just a quick example, I use the [Giphy API](https://github.com/Giphy/GiphyAPI#search-endpoint) to retreive funny images from simple keywords.
 
 ## Launch the app
