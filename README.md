@@ -22,3 +22,7 @@ Check files `app/Resources/view/default/index.html.twig` and `src/AppBundle/Cont
 ## To go further
 
 Build your own, with this cool list of public APIs: https://github.com/toddmotto/public-apis
+
+## Todo
+
+Try to handle properly error when there is no gif found for a given request!
