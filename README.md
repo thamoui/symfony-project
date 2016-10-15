@@ -1,4 +1,4 @@
-Symfony project
+Symfony project [![Build Status](https://travis-ci.org/simplonco/symfony-project.svg?branch=master)](https://travis-ci.org/simplonco/symfony-project)
 ===============
 
 ![Kitten GIF](http://media2.giphy.com/media/3o7qE7Hbomm69hYr04/giphy.gif)
